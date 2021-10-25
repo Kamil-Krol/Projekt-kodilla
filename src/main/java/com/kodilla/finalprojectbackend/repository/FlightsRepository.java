@@ -1,4 +1,4 @@
 package com.kodilla.finalprojectbackend.repository;
 
-public class FlightsRepository extends CrudRepository<Flights, Integer>{
+public interface FlightsRepository extends CrudRepository<Flights, Long>{
 }

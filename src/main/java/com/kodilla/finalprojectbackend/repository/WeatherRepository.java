@@ -1,4 +1,4 @@
 package com.kodilla.finalprojectbackend.repository;
 
-public class WeatherRepository extends CrudRepository<Weather, Integer>{
+public interface WeatherRepository extends CrudRepository<Weather, Long>{
 }
