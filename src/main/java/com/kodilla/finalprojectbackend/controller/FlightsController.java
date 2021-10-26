@@ -1,6 +1,7 @@
 package com.kodilla.finalprojectbackend.controller;
 
 import com.kodilla.finalprojectbackend.dto.FlightsDto;
+import com.kodilla.finalprojectbackend.service.FlightsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

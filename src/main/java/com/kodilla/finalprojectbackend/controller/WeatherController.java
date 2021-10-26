@@ -2,6 +2,7 @@ package com.kodilla.finalprojectbackend.controller;
 
 
 import com.kodilla.finalprojectbackend.dto.WeatherDto;
+import com.kodilla.finalprojectbackend.service.WeatherService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,7 +28,7 @@ public class WeatherController {
     @PostMapping
     public WeatherDto create(@RequestBody WeatherDto weatherDto) {
         return weatherService.create(weatherDto);
-    }t
+    }
 
     @PutMapping
     public WeatherDto update(@RequestBody WeatherDto weatherDto) {
