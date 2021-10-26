@@ -1,8 +1,11 @@
 package com.kodilla.finalprojectbackend.controller;
 
 
+import com.kodilla.finalprojectbackend.dto.WeatherDto;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @AllArgsConstructor
 @RestController

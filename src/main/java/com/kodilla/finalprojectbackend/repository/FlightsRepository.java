@@ -1,4 +1,7 @@
 package com.kodilla.finalprojectbackend.repository;
 
-public interface FlightsRepository extends CrudRepository<Flights, Long>{
+import com.kodilla.finalprojectbackend.domain.Flights;
+import org.springframework.data.repository.CrudRepository;
+
+public interface FlightsRepository extends CrudRepository<Flights, Long> {
 }
