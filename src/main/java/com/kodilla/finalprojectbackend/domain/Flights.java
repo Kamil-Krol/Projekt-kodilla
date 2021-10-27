@@ -32,6 +32,4 @@ public class Flights {
     private String destinationPlace;
 
 
-
-
 }
